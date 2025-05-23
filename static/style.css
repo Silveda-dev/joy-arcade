@@ -1,0 +1,6 @@
+/* Set pop-up window dimensions*/
+body {
+    width: 250px;
+    height: 150px;
+    overflow: hidden; /* Remove scrollbar */
+}
