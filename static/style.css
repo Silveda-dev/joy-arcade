@@ -4,3 +4,8 @@ body {
     height: 150px;
     overflow: hidden; /* Remove scrollbar */
 }
+
+#gameCanvas {
+    width: 250px;
+    height: 150px;
+}
