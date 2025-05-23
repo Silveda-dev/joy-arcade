@@ -1,3 +1,7 @@
+//Setting screen height and width values for use throughout
+SCREEN_WIDTH = 250;
+SCREEN_HEIGHT = 150;
+
 //Setting up key elements
 const button = document.getElementById("play");
 const canvas = document.getElementById("gameCanvas");
@@ -15,6 +19,11 @@ function loadGame() {
     button.style.display = "none";
     canvas.style.display = "block";
     //Minigame starter function will be selected from minigames and called here
+}
+
+//Not accessed within this file - accessed from minigame files
+function reset() {
+    //Clean-up from previous level & go back to loadscreen
 }
 
 button.addEventListener("click", loadGame);
